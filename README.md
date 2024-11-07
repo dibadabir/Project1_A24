@@ -1,25 +1,25 @@
 ## Project1_A24
 
 
-## Team members
+## Team Members
 
 * Justyna Dobersztajn
 * Diba Dabiransari
 * Aleeza Azad
 
-## Methodology and research
+## Methodology and Research
 
 
-## Skin disease diagnosis classifier
+## Skin Disease Diagnosis Classifier
 
 
-## About our data
+## About Our Data
 
 
-## Pre-processing stages
+## Pre-processing Stages
 
 
-## Choosing the best model
+## Choosing the Best Model
 
 
 ## Evaluating Models
@@ -31,7 +31,7 @@
 ## Product Compatibility
 
 
-## Libraries used in this project
+## Libraries Used in this Project
 
 ```
 import numpy as pd
