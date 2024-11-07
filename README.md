@@ -13,7 +13,7 @@
 ## Skin Disease Diagnosis Classifier
 
 
-## About Our Data
+## About Our Dataset
 
 
 ## Pre-processing Stages
