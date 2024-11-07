@@ -7,30 +7,28 @@
 * Diba Dabiransari
 * Aleeza Azad
 
-## Development Methodology
+## Methodology and research
 
 
-## 1. What does the business need?
+## Skin disease diagnosis classifier
 
 
-## 2. What data do we need?
+## About our data
 
 
-## 3. Cleaning, Processing, and labeling
+## Cleaning, Processing, and labeling
 
 
-## 4. Choosing the best model
+## Choosing the best model
 
 
-## 5. Evaluating Models
+## Evaluating Models
 
 
-## 6. Deployment
+## Deployment
 
 
-## 7. Product Compatibility
-
-
+## Product Compatibility
 
 
 ## Libraries used in this project
