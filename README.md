@@ -16,7 +16,7 @@
 ## About our data
 
 
-## Cleaning, Processing, and labeling
+## Pre-processing stages
 
 
 ## Choosing the best model
