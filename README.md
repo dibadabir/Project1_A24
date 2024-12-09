@@ -37,6 +37,20 @@ The **HAM10000 ("Human Against Machine with 10000 Training Images")** dataset is
 
 The dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. It is publicly available and widely used in dermatological research.
 
+### Dataset Diversity
+
+The HAM10000 dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. The images were sourced from **clinical dermatology datasets**, as well as **public image repositories**, which contributed to the variety of skin conditions and patient demographics represented. Key features of the dataset include:
+
+- **Lesion Variety**: The dataset covers a wide range of skin conditions, including both malignant (e.g., melanoma) and benign (e.g., melanocytic nevi, dermatofibromas) lesions. This ensures that machine learning models trained on this dataset can generalize across different types of lesions.
+  
+- **Diverse Skin Types**: The dataset includes images representing various **skin tones** and **ethnicities**, ranging from light to dark skin, which is crucial for developing algorithms that work effectively across diverse populations.
+
+- **Imaging Conditions**: Images in the dataset were captured using different **dermoscopic devices** and under varying **lighting conditions**. This variability helps ensure that models can recognize skin lesions accurately regardless of imaging conditions.
+
+- **Age Range**: The dataset represents a wide range of **age groups**, from children to elderly individuals, making it a valuable resource for age-inclusive skin disease detection.
+
+- **Image Quality**: Each image in the dataset is of high quality, with clear dermoscopic views of the lesions, allowing for detailed feature extraction and model training.
+
 
 ## Pre-processing Stages
 
