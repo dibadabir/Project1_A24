@@ -24,9 +24,6 @@ To deliver a robust and reliable solution, we utilize:
 This approach ensures a flexible yet structured workflow, delivering high-quality outcomes in skin disease diagnosis and classification.
 
 
-## Skin Disease Diagnosis Classifier
-
-
 ## About Our Dataset
 The **HAM10000 ("Human Against Machine with 10000 Training Images")** dataset is a comprehensive collection of dermoscopic images of common pigmented skin lesions. It contains **10,015 high-quality dermoscopic images** categorized into **seven classes** representing various skin conditions:
 
