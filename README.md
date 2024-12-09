@@ -37,6 +37,8 @@ The **HAM10000 ("Human Against Machine with 10000 Training Images")** dataset is
 
 The dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. It is publicly available and widely used in dermatological research.
 
+[](https://www.researchgate.net/publication/350426378/figure/fig2/AS:1005793549762560@1616811277360/Image-examples-of-HAM10000-dataset.ppm)
+
 ### Dataset Diversity
 
 The HAM10000 dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. The images were sourced from **clinical dermatology datasets**, as well as **public image repositories**, which contributed to the variety of skin conditions and patient demographics represented. Key features of the dataset include:
