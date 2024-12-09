@@ -1,4 +1,5 @@
 ## Project1_A24
+Skin cancer diagnosis is a critical field in medical research, aiming to enhance early detection and treatment outcomes. Leveraging advanced machine learning and deep learning techniques, this project develops an accurate and efficient skin disease classifier. The HAM10000 dataset, a benchmark dataset in dermoscopic imaging, is used to train, validate, and test the performance of the model.
 
 
 ## Team Members
@@ -7,13 +8,37 @@
 * Diba Dabiransari
 * Aleeza Azad
 
-## Methodology and Research
+
+## Project Management and Quality Development
+
+We adopt a hybrid methodology combining **Agile Project Management** and **Six Sigma** principles for efficiency and quality assurance. Agile ensures iterative development, flexibility, and collaboration, while Six Sigma's DMAIC framework focuses on quality control and continuous improvement.
+
+### Quality Development Practices
+To deliver a robust and reliable solution, we utilize:
+- **Test-Driven Development (TDD):** Writing tests before implementation to ensure functionality.
+- **Test Automation:** Automating tests to validate code and detect regressions efficiently.
+- **Continuous Integration (CI):** Ensuring code integrity through automated builds and tests.
+- **Peer Review and Pair Programming:** Promoting collaboration, knowledge sharing, and adherence to coding standards.
+- **Refactoring:** Simplifying and optimizing code for maintainability.
+
+This approach ensures a flexible yet structured workflow, delivering high-quality outcomes in skin disease diagnosis and classification.
 
 
 ## Skin Disease Diagnosis Classifier
 
 
 ## About Our Dataset
+The **HAM10000 ("Human Against Machine with 10000 Training Images")** dataset is a comprehensive collection of dermoscopic images of common pigmented skin lesions. It contains **10,015 high-quality dermoscopic images** categorized into **seven classes** representing various skin conditions:
+
+1. **Melanocytic nevi (nv)**
+2. **Melanoma (mel)**
+3. **Benign keratosis-like lesions (bkl)**
+4. **Basal cell carcinoma (bcc)**
+5. **Actinic keratoses and intraepithelial carcinoma (akiec)**
+6. **Vascular lesions (vasc)**
+7. **Dermatofibroma (df)**
+
+The dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. It is publicly available and widely used in dermatological research.
 
 
 ## Pre-processing Stages
