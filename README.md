@@ -57,16 +57,13 @@ The HAM10000 dataset was acquired from multiple sources, ensuring diversity in l
 ## Pre-processing Stages
 
 
-## Choosing the Best Model
+## Training Models
 
 
 ## Evaluating Models
 
 
 ## Deployment
-
-
-## Product Compatibility
 
 
 ## Libraries Used in this Project
