@@ -1,79 +1,120 @@
-## Project1_A24
+# Project1_A24
+
 Skin cancer diagnosis is a critical field in medical research, aiming to enhance early detection and treatment outcomes. Leveraging advanced machine learning and deep learning techniques, this project develops an accurate and efficient skin disease classifier. The HAM10000 dataset, a benchmark dataset in dermoscopic imaging, is used to train, validate, and test the performance of the model.
 
+---
 
-## Team Members
+## 👥 Team Members
 
-* Justyna Dobersztajn
-* Diba Dabiransari
-* Aleeza Azad
+- Justyna Dobersztajn  
+- Diba Dabiransari  
+- Aleeza Azad  
 
+---
 
-## Project Management and Quality Development
+## 📋 Project Management and Quality Development
 
 We adopt a hybrid methodology combining **Agile Project Management** and **Six Sigma** principles for efficiency and quality assurance. Agile ensures iterative development, flexibility, and collaboration, while Six Sigma's DMAIC framework focuses on quality control and continuous improvement.
 
-### Quality Development Practices
+### 🔧 Quality Development Practices
+
 To deliver a robust and reliable solution, we utilize:
-- **Test-Driven Development (TDD):** Writing tests before implementation to ensure functionality.
-- **Test Automation:** Automating tests to validate code and detect regressions efficiently.
-- **Continuous Integration (CI):** Ensuring code integrity through automated builds and tests.
-- **Peer Review and Pair Programming:** Promoting collaboration, knowledge sharing, and adherence to coding standards.
-- **Refactoring:** Simplifying and optimizing code for maintainability.
+
+- **Test-Driven Development (TDD)**: Writing tests before implementation to ensure functionality.  
+- **Test Automation**: Automating tests to validate code and detect regressions efficiently.  
+- **Continuous Integration (CI)**: Ensuring code integrity through automated builds and tests.  
+- **Peer Review and Pair Programming**: Promoting collaboration, knowledge sharing, and adherence to coding standards.  
+- **Refactoring**: Simplifying and optimizing code for maintainability.  
 
 This approach ensures a flexible yet structured workflow, delivering high-quality outcomes in skin disease diagnosis and classification.
 
+---
 
-## About Our Dataset
-The **HAM10000 ("Human Against Machine with 10000 Training Images")** dataset is a comprehensive collection of dermoscopic images of common pigmented skin lesions. It contains **10,015 high-quality dermoscopic images** categorized into **seven classes** representing various skin conditions:
+## 📊 About Our Dataset
 
-1. **Melanocytic nevi (nv)**
-2. **Melanoma (mel)**
-3. **Benign keratosis-like lesions (bkl)**
-4. **Basal cell carcinoma (bcc)**
-5. **Actinic keratoses and intraepithelial carcinoma (akiec)**
-6. **Vascular lesions (vasc)**
-7. **Dermatofibroma (df)**
+### 1. Custom Dataset – Normal Skin
 
-The dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. It is publicly available and widely used in dermatological research.
+To create a more balanced and comprehensive training dataset, we developed our own **Normal Skin Dataset**. This dataset consists of:
 
-![image](https://github.com/user-attachments/assets/925b84e2-3388-4e5f-ad32-0458e4414d0f)
+- **320 original images** captured using smartphone cameras under various lighting and environmental conditions.
+- **Data Augmentation Techniques** applied to enhance generalization and prevent overfitting:
+  - Rotation  
+  - Flipping (horizontal/vertical)  
+  - Brightness and contrast adjustment  
+  - Addition of Gaussian noise  
 
-### Dataset Diversity
+➡️ **This increased the dataset to 1,000 images of normal, lesion-free skin.**
 
-The HAM10000 dataset was acquired from multiple sources, ensuring diversity in lesion types, skin types, and imaging techniques. The images were sourced from **clinical dermatology datasets**, as well as **public image repositories**, which contributed to the variety of skin conditions and patient demographics represented. Key features of the dataset include:
+🔗 *Download Normal Skin Dataset* (link coming soon)
 
-- **Lesion Variety**: The dataset covers a wide range of skin conditions, including both malignant (e.g., melanoma) and benign (e.g., melanocytic nevi, dermatofibromas) lesions. This ensures that machine learning models trained on this dataset can generalize across different types of lesions.
-  
-- **Diverse Skin Types**: The dataset includes images representing various **skin tones** and **ethnicities**, ranging from light to dark skin, which is crucial for developing algorithms that work effectively across diverse populations.
+### 2. HAM10000 Dataset
 
-- **Imaging Conditions**: Images in the dataset were captured using different **dermoscopic devices** and under varying **lighting conditions**. This variability helps ensure that models can recognize skin lesions accurately regardless of imaging conditions.
+The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is a comprehensive collection of dermoscopic images of common pigmented skin lesions. It contains **10,015 high-quality dermoscopic images** categorized into seven classes:
 
-- **Age Range**: The dataset represents a wide range of **age groups**, from children to elderly individuals, making it a valuable resource for age-inclusive skin disease detection.
+- Melanocytic nevi (`nv`)  
+- Melanoma (`mel`)  
+- Benign keratosis-like lesions (`bkl`)  
+- Basal cell carcinoma (`bcc`)  
+- Actinic keratoses and intraepithelial carcinoma (`akiec`)  
+- Vascular lesions (`vasc`)  
+- Dermatofibroma (`df`)  
 
-- **Image Quality**: Each image in the dataset is of high quality, with clear dermoscopic views of the lesions, allowing for detailed feature extraction and model training.
+---
 
+## 🧪 Pre-processing Stages
 
-## Pre-processing Stages
+To prepare our data for effective training, we performed the following preprocessing steps:
 
+- **Grouping and Labeling**: Categorizing images into specific lesion types and adding corresponding labels.  
+- **Image Resizing**: Standardizing image dimensions to fit model input requirements (e.g., 224x224).  
+- **Normalization**: Scaling pixel values between 0 and 1 to improve convergence.  
+- **Augmentation**: Generating new training samples using real-time augmentation to increase dataset variability.  
+- **Hair Removal (DullRazor Algorithm)**: Removing artifacts such as body hair which obscure lesion boundaries and affect model performance.  
 
-## Training Models
+🔗 *Download Preprocessed Dataset* (link coming soon)
 
+---
 
-## Evaluating Models
+## 🧠 Training Models
 
+We implemented three core models for skin lesion classification:
 
-## Deployment
+- **Custom CNN**: A lightweight, self-built deep learning architecture tailored to our dataset.  
+- **VGG16**: A well-known deep CNN architecture, pretrained on ImageNet and fine-tuned for skin lesion classification.  
+- **ResNet50**: A deep residual learning model capable of handling vanishing gradient problems in very deep networks.  
 
+➡️ **Transfer learning** was leveraged to improve learning efficiency and accuracy by utilizing pretrained weights from large-scale datasets and adapting them to our medical imaging use case.
 
-## Libraries Used in this Project
+---
 
-```
-import numpy as pd
+## 📈 Evaluating Models
+
+To assess model performance, we used multiple evaluation metrics and visualizations:
+
+- **Training and Validation Loss/Accuracy Curves**: To monitor overfitting and generalization ability.  
+- **Confusion Matrix**: To visualize prediction distribution across actual vs. predicted labels.  
+- **ROC Curve**: To measure the true positive rate against the false positive rate for each class.  
+- **Classification Report**: Including Precision, Recall, F1-score, and Accuracy.  
+
+> Since the model is used for healthcare diagnostics, **minimizing false negatives** (i.e., high recall) is critical. Early and correct identification of malignant lesions can significantly affect treatment success and patient survival rates.
+
+---
+
+## 🚀 Deployment
+
+**Deployment details coming soon...**
+
+---
+
+## 🧰 Libraries Used in this Project
+
+```python
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-```
-
-## Version History
-
+from sklearn.metrics import classification_report, confusion_matrix, roc_curve
+import tensorflow as tf
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from keras.applications import VGG16, ResNet50
