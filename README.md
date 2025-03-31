@@ -94,7 +94,11 @@ To prepare our data for effective training, we performed the following preproces
 - **Augmentation**: Generating new training samples using real-time augmentation to increase dataset variability.  
 - **Hair Removal (DullRazor Algorithm)**: Removing artifacts such as body hair which obscure lesion boundaries and affect model performance.  
 
-🔗 *Download Preprocessed Dataset* (link coming soon)
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.41.59.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.41.37.png" alt="Image 2" width="45%"/>
+</p>
 
 ---
 
