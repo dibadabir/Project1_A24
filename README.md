@@ -56,7 +56,7 @@ To create a more balanced and comprehensive training dataset, we developed our o
 ➡️ **This increased the dataset to 1,000 images of normal, lesion-free skin.**
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.10.01.png" alt="Alt text" style="width:50%;">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.10.01.png" alt="Alt text" style="width:50%;">
 </p>
 
 ### 2. HAM10000 Dataset
@@ -72,7 +72,7 @@ The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is
 - Dermatofibroma (`df`)  
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.16.02.png" alt="Alt text" style="width:50%;">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.16.02.png" alt="Alt text" style="width:50%;">
 </p>
 
 ---
@@ -84,9 +84,9 @@ To prepare our data for effective training, we performed the following preproces
 - **Grouping and Labeling**: Categorizing images into specific lesion types and adding corresponding labels.
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Third%20Model/Screenshot%202025-03-31%20at%2017.23.06.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.23.06.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Third%20Model/Screenshot%202025-03-31%20at%2017.24.01.png" alt="Image 2" width="45%"/>
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.24.01.png" alt="Image 2" width="45%"/>
 </p>
 
 - **Image Resizing**: Standardizing image dimensions to fit model input requirements (e.g., 224x224).  
@@ -95,9 +95,9 @@ To prepare our data for effective training, we performed the following preproces
 - **Hair Removal (DullRazor Algorithm)**: Removing artifacts such as body hair which obscure lesion boundaries and affect model performance.  
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.41.59.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.41.59.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
   
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.41.37.png" alt="Image 2" width="45%"/>
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.41.37.png" alt="Image 2" width="45%"/>
 </p>
 
 ---
