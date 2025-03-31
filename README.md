@@ -59,6 +59,7 @@ The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is
 - Vascular lesions (`vasc`)  
 - Dermatofibroma (`df`)  
 
+![image](https://github.com/user-attachments/assets/925b84e2-3388-4e5f-ad32-0458e4414d0f)
 ---
 
 ## 🧪 Pre-processing Stages
