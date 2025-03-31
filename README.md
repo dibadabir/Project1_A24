@@ -16,6 +16,12 @@ Skin cancer diagnosis is a critical field in medical research, aiming to enhance
 
 We adopt a hybrid methodology combining **Agile Project Management** and **Six Sigma** principles for efficiency and quality assurance. Agile ensures iterative development, flexibility, and collaboration, while Six Sigma's DMAIC framework focuses on quality control and continuous improvement.
 
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fwhat-scrum-how-start-agile-project-management-dejan-majkic&psig=AOvVaw0yI7jJoP8VXjStb6WoCbjJ&ust=1743522751398000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKC2z8PWtIwDFQAAAAAdAAAAABAO)
+
+![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.proactioninternational.com%2Fen%2Fsix-sigma&psig=AOvVaw395TgG1V_PjRDMArxJNppY&ust=1743522690404000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDJ0KrWtIwDFQAAAAAdAAAAABAE)
+
+
+
 ### 🔧 Quality Development Practices
 
 To deliver a robust and reliable solution, we utilize:
