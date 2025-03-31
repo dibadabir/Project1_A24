@@ -81,7 +81,14 @@ The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is
 
 To prepare our data for effective training, we performed the following preprocessing steps:
 
-- **Grouping and Labeling**: Categorizing images into specific lesion types and adding corresponding labels.  
+- **Grouping and Labeling**: Categorizing images into specific lesion types and adding corresponding labels.
+
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Third%20Model/Screenshot%202025-03-31%20at%2017.23.06.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Third%20Model/Screenshot%202025-03-31%20at%2017.24.01.png" alt="Image 2" width="45%"/>
+</p>
+
 - **Image Resizing**: Standardizing image dimensions to fit model input requirements (e.g., 224x224).  
 - **Normalization**: Scaling pixel values between 0 and 1 to improve convergence.  
 - **Augmentation**: Generating new training samples using real-time augmentation to increase dataset variability.  
