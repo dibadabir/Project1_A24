@@ -124,11 +124,15 @@ To assess model performance, we used multiple evaluation metrics and visualizati
 - **Classification Report**: Including Precision, Recall, F1-score, and Accuracy.
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.45.58.png" alt="Alt text" style="width:50%;">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2018.00.19.png" alt="Image 1" width="50%" style="margin-right: 10px;"/>
+  
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2018.00.36.png" alt="Image 2" width="25%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.46.41.png" alt="Alt text" style="width:50%;">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2018.00.51.png" alt="Image 2" width="35%" style="margin-right: 10px;"/>
+
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2018.01.06.png" alt="Image 2" width="45%"/>
 </p>
 
 > Since the model is used for healthcare diagnostics, **minimizing false negatives** (i.e., high recall) is critical. Early and correct identification of malignant lesions can significantly affect treatment success and patient survival rates.
