@@ -16,9 +16,13 @@ Skin cancer diagnosis is a critical field in medical research, aiming to enhance
 
 We adopt a hybrid methodology combining **Agile Project Management** and **Six Sigma** principles for efficiency and quality assurance. Agile ensures iterative development, flexibility, and collaboration, while Six Sigma's DMAIC framework focuses on quality control and continuous improvement.
 
-![image](https://media.licdn.com/dms/image/v2/D4D12AQHmPnR839fivw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683634174404?e=2147483647&v=beta&t=9Ds4fAfQf6Uu3EBgk3aYKPiPLX1ALEwyrbeqJW0uYhY)
+<p align="center">
+  <img src="https://media.licdn.com/dms/image/v2/D4D12AQHmPnR839fivw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1683634174404?e=2147483647&v=beta&t=9Ds4fAfQf6Uu3EBgk3aYKPiPLX1ALEwyrbeqJW0uYhY" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  
+  <img src="https://media.licdn.com/dms/image/D5612AQFoCKcAHtMjgg/article-cover_image-shrink_600_2000/0/1696230326775?e=2147483647&v=beta&t=uGKmCkizvd_C9Rl5d9Jsru1b6cIIm6Sdr3uEvnA7Ni4" alt="Image 2" width="45%"/>
+</p>
 
-![image](https://media.licdn.com/dms/image/D5612AQFoCKcAHtMjgg/article-cover_image-shrink_600_2000/0/1696230326775?e=2147483647&v=beta&t=uGKmCkizvd_C9Rl5d9Jsru1b6cIIm6Sdr3uEvnA7Ni4)
+
 
 
 
