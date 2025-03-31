@@ -55,7 +55,10 @@ To create a more balanced and comprehensive training dataset, we developed our o
 
 ➡️ **This increased the dataset to 1,000 images of normal, lesion-free skin.**
 
-🔗 *Download Normal Skin Dataset* (link coming soon)
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.10.01.png" alt="Alt text" style="width:50%;">
+</p>
+
 
 ### 2. HAM10000 Dataset
 
