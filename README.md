@@ -59,7 +59,6 @@ To create a more balanced and comprehensive training dataset, we developed our o
   <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.10.01.png" alt="Alt text" style="width:50%;">
 </p>
 
-
 ### 2. HAM10000 Dataset
 
 The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is a comprehensive collection of dermoscopic images of common pigmented skin lesions. It contains **10,015 high-quality dermoscopic images** categorized into seven classes:
@@ -72,7 +71,10 @@ The **HAM10000** ("Human Against Machine with 10000 Training Images") dataset is
 - Vascular lesions (`vasc`)  
 - Dermatofibroma (`df`)  
 
-![image](https://github.com/user-attachments/assets/925b84e2-3388-4e5f-ad32-0458e4414d0f)
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/First%20Model/Screenshot%202025-03-31%20at%2017.16.02.png" alt="Alt text" style="width:50%;">
+</p>
+
 ---
 
 ## 🧪 Pre-processing Stages
