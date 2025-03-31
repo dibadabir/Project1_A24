@@ -121,7 +121,15 @@ To assess model performance, we used multiple evaluation metrics and visualizati
 - **Training and Validation Loss/Accuracy Curves**: To monitor overfitting and generalization ability.  
 - **Confusion Matrix**: To visualize prediction distribution across actual vs. predicted labels.  
 - **ROC Curve**: To measure the true positive rate against the false positive rate for each class.  
-- **Classification Report**: Including Precision, Recall, F1-score, and Accuracy.  
+- **Classification Report**: Including Precision, Recall, F1-score, and Accuracy.
+
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.45.58.png" alt="Alt text" style="width:50%;">
+</p>
+
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-03-31%20at%2017.46.41.png" alt="Alt text" style="width:50%;">
+</p>
 
 > Since the model is used for healthcare diagnostics, **minimizing false negatives** (i.e., high recall) is critical. Early and correct identification of malignant lesions can significantly affect treatment success and patient survival rates.
 
