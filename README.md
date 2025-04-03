@@ -140,22 +140,42 @@ To assess model performance, we used multiple evaluation metrics and visualizati
 ---
 
 ## 🚀 Deployment
+We deployed our skin lesion classification models using Streamlit, a powerful and user-friendly platform for creating interactive web applications with Python. Streamlit allowed us to build a simple, intuitive interface for users—including patients and healthcare professionals—to upload skin images and receive predictions in real-time.
+
+Key Deployment Features:
+
+🖼️ Image Upload: Users can upload skin lesion images directly from their device.
+
+📊 Real-Time Prediction: The model outputs the predicted class.
+
+🔁 Fast Inference: Optimized backend with TensorFlow/Keras ensures efficient and responsive inference.
 
 ---
 
 ## 🌐 Multidisciplinary Concerns
+Given the sensitivity of applying AI in healthcare, we conducted a thorough ethical assessment using the Smart Ethics Tool. This tool evaluates the model across five core ethical principles and provides an overall alignment score of 5.2/10, suggesting room for improvement in responsible AI development.
+
+✅ Ethical Strengths
+- **Data Privacy (Score: 9/10):** Patient privacy is well protected; no identifiable data is stored or transmitted.
+- **Sustainability (Score: 8/10):** The solution demonstrates good awareness of sustainable practices and social value.
+- **Purpose Realisation - Benefits (Score: 7/10):** The model addresses a clear medical need—early detection of skin cancer.
+
+⚠️ Ethical Weaknesses
+- **AI Transparency (Score: 4/10):** While the model is accessible, explainability methods (like Grad-CAM or SHAP) have not yet been integrated to clarify how predictions are made.
+- **CopyRights and Human First Concerns (Score: 5/10):** More transparency about dataset ownership, human oversight, and consent is needed.
+- **Global Execution & Fairness (Score: 5/10):** The dataset lacks diversity, especially in terms of skin tones and ethnic representation, which could lead to biased predictions.
 
 ---
 
-## 🧰 Libraries Used in this Project
+## 🧰 Resources and Tools used
+To ensure efficiency, collaboration, and quality throughout the project lifecycle, we utilized a diverse set of tools across development, deployment, presentation, and ethical evaluation stages:
+- **Google Colab** – For cloud-based model development, training, and experimentation using GPUs.
+- **PyCharm** – For structured local development, testing, and debugging of Python code.
+- **GitHub** – For version control, collaboration, and hosting of code and project resources.
+- **Canva** – For designing professional-quality diagrams and visual elements used in documentation and presentation.
+- **Microsoft Project** – For managing project timelines, deliverables, and team workflows.
+- **Smart Ethics Tool** – For evaluating the ethical integrity of our AI system across five core principles and generating a comprehensive alignment score.
+- **Streamlit** – For deploying our trained models with an intuitive web interface suitable for patients and healthcare professionals.
+- **Gamma** – For creating interactive and visually compelling presentations of project outcomes.
 
-```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, confusion_matrix, roc_curve
-import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from keras.applications import VGG16, ResNet50
+
