@@ -150,6 +150,16 @@ Key Deployment Features:
 
 🔁 Fast Inference: Optimized backend with TensorFlow/Keras ensures efficient and responsive inference.
 
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-04-03%20at%2016.33.35.png" alt="Image 1" width="45%" style="margin-right: 10px;"/>
+  
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-04-03%20at%2016.32.27.png" alt="Image 2" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-04-03%20at%2016.34.08.png" alt="Alt text" style="width:50%;">
+</p>
+
 ---
 
 ## 🌐 Multidisciplinary Concerns
@@ -164,6 +174,10 @@ Given the sensitivity of applying AI in healthcare, we conducted a thorough ethi
 - **AI Transparency (Score: 4/10):** While the model is accessible, explainability methods (like Grad-CAM or SHAP) have not yet been integrated to clarify how predictions are made.
 - **CopyRights and Human First Concerns (Score: 5/10):** More transparency about dataset ownership, human oversight, and consent is needed.
 - **Global Execution & Fairness (Score: 5/10):** The dataset lacks diversity, especially in terms of skin tones and ethnic representation, which could lead to biased predictions.
+
+<p align="center">
+  <img src="https://github.com/dibadabir/Project1_A24/blob/main/Images/Screenshot%202025-04-03%20at%2016.25.33.png" alt="Alt text" style="width:50%;">
+</p>
 
 ---
 
