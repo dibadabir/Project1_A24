@@ -192,4 +192,16 @@ To ensure efficiency, collaboration, and quality throughout the project lifecycl
 - **Streamlit** – For deploying our trained models with an intuitive web interface suitable for patients and healthcare professionals.
 - **Gamma** – For creating interactive and visually compelling presentations of project outcomes.
 
+<p align="center">
+  <img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Logo1" width="70" />
+  <img src="https://storage.caktusgroup.com/media/blog-images/logo.png" alt="Logo2" width="70" />
+  <img src="https://researchcomputing.princeton.edu/sites/g/files/toruqf7036/files/styles/freeform_750w/public/2021-02/Github.png?h=0adafebd&itok=ifc6IOIP" alt="Logo3" width="70" />
+  <img src="https://lh3.googleusercontent.com/-TkDrOYSrcZE/Z1d0e2jWyII/AAAAAAAAAso/2zDrEOPh8nsY7kf9t1zj8j6rHfN-TYHMwCNcBGAsYHQ/CIRCLE%2BLOGO%2B-%2BGRADIENT%2B-%2BRGB%2B%25284%2529.png" alt="Logo4" width="70" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Project_%282019%E2%80%93present%29.svg/1200px-Microsoft_Project_%282019%E2%80%93present%29.svg.png" alt="Logo5" width="70" />
+  <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEr83LrjISOCg/company-logo_200_200/company-logo_200_200/0/1688026245779/smart_ethics_logo?e=2147483647&v=beta&t=OWiUUmVS7lHRY6OxXgsz6GWbzJsBpGOA0C5nU0NJB58" alt="Logo6" width="70" />
+  <img src="https://media.datacamp.com/legacy/v1727712679/image_0dd3c66c35.png" alt="Logo7" width="70" />
+  <img src="https://www.toolpilot.ai/cdn/shop/files/959d2410528619c2e22e3e55fcba5759.jpg?v=1698148328" alt="Logo8" width="70" />
+</p>
+
+
 
